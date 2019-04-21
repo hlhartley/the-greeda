@@ -57,19 +57,19 @@ body {
 }
 
 .cloud:nth-child(2) {
-    top: 340px;
-    left: 260px;
-    transform: scale(0.8)
+    top: 365px;
+    left: 155px;
+    transform: scale(0.6)
 }
 
 .balloon {
-    height: 200px;
-    width: 200px;
+    height: 160px;
+    width: 160px;
     background-color: #009688;
     border-radius: 50%;
     position: absolute;
-    top: 80px;
-    left: 40px;
+    top: 90px;
+    left: 60px;
     animation: float 4.5s infinite;
 }
 
@@ -82,82 +82,83 @@ body {
 .balloon:before {
     position: absolute;
     content: "";
-    height: 200px;
-    width: 140px;
+    height: 160px;
+    width: 112px;
     background-color: #fb84a0;
     border-radius: 50%;
-    left: 30px;
+    left: 25px;
 }
 
 .balloon:after {
     position: absolute;
     content: "";
-    height: 200px;
-    width: 80px;
+    height: 160px;
+    width: 64px;
     background-color: #f7174c;
     border-radius: 50%;
-    left: 60px;
+    left: 49px;
     top: 0
 }
 
 .bottom {
     background-color: #f7174c;
-    height: 20px;
-    width: 90px;
+    height: 16px;
+    width: 72px;
     position: relative;
-    top: 188px;
-    left: 53px;
+    top: 152px;
+    left: 45px;
     z-index: 10;
+    border-radius: 1px;
 }
 
 .basket {
-    height: 50px;
-    width: 70px;
+    height: 40px;
+    width: 56px;
     background-color: #795548;
     position: relative;
-    top: 240px;
-    left: 62.5px;
+    top: 193px;
+    left: 53.5px;
     border-radius: 0 0 10px 10px;
   }
   
   .basket:before {
     position: absolute;
     content: "";
-    background-color: 795548;
-    height: 7px;
-    width: 80px;
+    background-color: #503f39;
+    height: 5.6px;
+    width: 64px;
     border-radius: 7px;
     left: -5px
   }
   
   .rope {
-    background-color: #795548;
-    height: 55px;
-    width: 3px;
+    background-color: #503f39;
+    height: 44px;
+    width: 2.4px;
     position: relative;
-    top: 137px;
-    left: 96.5px;
+    top: 110px;
+    left: 79px;
   }
   
   .rope:before {
     position: absolute;
     content: "";
-    background-color: #795548;
-    height: 55px;
-    width: 3px;
-    top: 0;
-    left: -38px;
+    background-color: #503f39;
+    height: 44px;
+    width: 2.4px;
+    top: 20;
+    left: -30px;
     transform: rotate(-8deg);
   }
   
   .rope:after{
     position: absolute;
     content: "";
-    background-color: #795548;
-    height: 55px;
-    width: 3px;
+    background-color: #503f39;
+    height: 44px;
+    width: 2.4px;
     top: 0;
-    left: 38px;
+    left: 30px;
     transform: rotate(8deg);
   }
 
@@ -172,5 +173,5 @@ body {
     font-size: 40px;
     font-weight: bold;
     margin-left: 10%;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
