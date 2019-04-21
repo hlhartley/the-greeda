@@ -10,8 +10,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    line-height: 60px;
-    letter-spacing: 1px;
+    line-height: 70px;
+    letter-spacing: 1.5px;
     // position: absolute;
     // margin: auto;
     // top: 0;
@@ -164,14 +164,16 @@ body {
 
 .banner-text {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 10%;
+    font-family: 'Raleway', sans-serif;
 }
 
 .introduction-text {
     color: white;
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 70px;
+    font-weight: 600;
     margin-left: 10%;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
+    font-family: 'Tangerine', cursive;
 }

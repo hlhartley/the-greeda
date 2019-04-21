@@ -9,7 +9,7 @@ class Banner extends Component {
         <div className='cloud'></div>
         <div className='cloud'></div>
         <div className='banner-text'>Thanks for visiting! I'm</div>
-        <div className='introduction-text'>HEATHER HARTLEY</div>
+        <div className='introduction-text'>Heather Hartley</div>
         <div className='banner-text'>a front-end engineer</div>
         <div className="balloon">
           <div className="bottom"></div>
