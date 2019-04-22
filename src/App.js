@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Banner from './Banner';
 import Navigation from './Navigation';
+import About from './About';
 
 class App extends Component {
   constructor() {
@@ -31,7 +32,7 @@ class App extends Component {
       <div className="App">
         <Navigation navFixed={this.state.navFixed}/>
         <Banner />
-        <div className="text">Text</div>
+        <About />
       </div>
     );
   }

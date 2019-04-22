@@ -1,0 +1,32 @@
+.about-container {
+    background-color: #eae7e7; 
+    height: 700px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.about-title {
+    padding-top: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.portrait-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.about-text {
+    font-size: 13.5px;
+    text-align: left;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    width: 60vw;
+}
