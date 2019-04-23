@@ -1,179 +1,38 @@
-body {
-    padding: 0;
-    margin: 0;
-    background-color: #2a0074;
-    height: 50vh;
-  }
-  
   .container {
     height: 500px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    line-height: 70px;
+    line-height: 35px;
     letter-spacing: 1.5px;
-    // position: absolute;
-    // margin: auto;
-    // top: 0;
-    // bottom: 0;
-    // left: 0;
-    // right: 0
+    padding: 0;
+    margin: 0;
+    background-image: url('./assets/flower-computer.jpg');
+    background-size: 100% 665px;
   }
   
-  .cloud {
-    background-color: white;
-    height: 50px;
-    width: 200px;
-    border-radius: 50px;
-    position: absolute;
-    opacity: 0.1
+  .typewriter h1 {
+    color: black;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
   }
   
-  .cloud:before{
-    position: absolute;
-    content: "";
-    height: 100px;
-    width: 100px;
-    background-color: white;
-    border-radius: 50%;
-    bottom: 25px;
-    left: 80px;
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 25% }
   }
   
-  .cloud:after{
-    position: absolute;
-    content: "";
-    height: 80px;
-    width: 80px;
-    background-color: white;
-    border-radius: 50%;
-    bottom: 25px;
-    left: 25px;
-}
-
-.cloud:nth-child(1) {
-    top: 130px;
-    left: 10px;
-}
-
-.cloud:nth-child(2) {
-    top: 365px;
-    left: 155px;
-    transform: scale(0.6)
-}
-
-.balloon {
-    height: 160px;
-    width: 160px;
-    background-color: #009688;
-    border-radius: 50%;
-    position: absolute;
-    top: 135px;
-    left: 60px;
-    animation: float 4.5s infinite;
-}
-
-@keyframes float {
-    50% {
-        transform: translateY(50px);
-    }
-}
-
-.balloon:before {
-    position: absolute;
-    content: "";
-    height: 160px;
-    width: 112px;
-    background-color: #fb84a0;
-    border-radius: 50%;
-    left: 25px;
-}
-
-.balloon:after {
-    position: absolute;
-    content: "";
-    height: 160px;
-    width: 64px;
-    background-color: #f7174c;
-    border-radius: 50%;
-    left: 49px;
-    top: 0
-}
-
-.bottom {
-    background-color: #f7174c;
-    height: 16px;
-    width: 72px;
-    position: relative;
-    top: 152px;
-    left: 45px;
-    z-index: 10;
-    border-radius: 1px;
-}
-
-.basket {
-    height: 40px;
-    width: 56px;
-    background-color: #795548;
-    position: relative;
-    top: 193px;
-    left: 53.5px;
-    border-radius: 0 0 10px 10px;
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    40% { border-color: orange }
   }
-  
-  .basket:before {
-    position: absolute;
-    content: "";
-    background-color: #503f39;
-    height: 5.6px;
-    width: 64px;
-    border-radius: 7px;
-    left: -5px
-  }
-  
-  .rope {
-    background-color: #503f39;
-    height: 44px;
-    width: 2.4px;
-    position: relative;
-    top: 110px;
-    left: 79px;
-  }
-  
-  .rope:before {
-    position: absolute;
-    content: "";
-    background-color: #503f39;
-    height: 44px;
-    width: 2.4px;
-    top: 20;
-    left: -30px;
-    transform: rotate(-8deg);
-  }
-  
-  .rope:after{
-    position: absolute;
-    content: "";
-    background-color: #503f39;
-    height: 44px;
-    width: 2.4px;
-    top: 0;
-    left: 30px;
-    transform: rotate(8deg);
-  }
-
-.banner-text {
-    color: white;
-    font-size: 18px;
-    margin-left: 10%;
-}
-
-.introduction-text {
-    color: white;
-    font-size: 70px;
-    font-weight: 600;
-    margin-left: 10%;
-    letter-spacing: 3px;
-    font-family: 'Tangerine', cursive;
-}

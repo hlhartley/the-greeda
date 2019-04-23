@@ -3,6 +3,7 @@ import './App.css';
 import Banner from './Banner';
 import Navigation from './Navigation';
 import About from './About';
+import Projects from './Projects';
 
 class App extends Component {
   constructor() {
@@ -33,6 +34,7 @@ class App extends Component {
         <Navigation navFixed={this.state.navFixed}/>
         <Banner />
         <About />
+        <Projects />
       </div>
     );
   }
