@@ -30,11 +30,11 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="App" id="app">
         <div className= { this.state.navFixed ? "navigation-container fixed-nav" : "navigation-container" }>
           <div className='logo'><i class="fas fa-heading"></i><i class="fas fa-heading"></i></div>
           <div className='nav-link-container'>
-            <div className="nav-link"><a href="#banner">Home</a></div>
+            <div className="nav-link"><a href="#app">Home</a></div>
             <div className="nav-link"><a href="#about">About</a></div>
             <div className="nav-link"><a href="#projects">Projects</a></div>
             <div className="nav-link"><a href="#contact">Contact</a></div>
