@@ -25,8 +25,8 @@ class Projects extends Component {
                                 <li>Jest + Supertest</li>
                             </ul>
                             <div className="buttons-container">
-                                <button><a href="https://github.com/hlhartley/listy" target="_blank">GitHub</a></button>
-                                <button className="disabled-button">App Link</button>
+                                <a href="https://github.com/hlhartley/listy" target="_blank" className="button-link">GitHub</a>
+                                <div className="disabled-button">App</div>
                             </div>
                         </div>
                     </div>
@@ -42,8 +42,8 @@ class Projects extends Component {
                                 <li>Jest + Enzyme</li>
                             </ul>
                             <div className="buttons-container">
-                                <button><a href="https://github.com/hlhartley/movie-tracker-app" target="_blank">GitHub</a></button>
-                                <button className="disabled-button">App Link</button>
+                                <a href="https://github.com/hlhartley/movie-tracker-app" target="_blank" className="button-link">GitHub</a>
+                                <div className="disabled-button">App</div>
                             </div>
                         </div>
                         <img className="project-img" src={require("../assets/movie-tracker.png")}/>
@@ -58,8 +58,8 @@ class Projects extends Component {
                                 <li>Heroku</li>
                             </ul>
                             <div className="buttons-container">
-                                <button><a href="https://github.com/hlhartley/terminal-commander" target="_blank">GitHub</a></button>
-                                <button><a href="https://terminal-commander.herokuapp.com/" target="_blank">App Link</a></button>
+                                <a href="https://github.com/hlhartley/terminal-commander" target="_blank" className="button-link">GitHub</a>
+                                <a href="https://terminal-commander.herokuapp.com/" target="_blank" className="button-link">App</a>
                             </div>
                         </div>
                     </div>
@@ -72,14 +72,14 @@ class Projects extends Component {
                                 <li>Amazon Web Services - S3</li>
                             </ul>
                             <div className="buttons-container">
-                                <button><a href="https://github.com/hlhartley/harvard-art-project" target="_blank">GitHub</a></button>
-                                <button><a href="http://harvard-art-project.s3-website-us-west-2.amazonaws.com/" target="_blank">App Link</a></button>
+                                <a href="https://github.com/hlhartley/harvard-art-project" target="_blank" className="button-link">GitHub</a>
+                                <a href="http://harvard-art-project.s3-website-us-west-2.amazonaws.com/" target="_blank" className="button-link">App</a>
                             </div>
                         </div>
                         <img className="project-img" src={require("../assets/harvard-art-project.png")}/>
                     </div>
                     <div className="project">
-                        <img className="project-img" src={require("../assets/pallit_picker_desktop.png")}/>
+                        <img className="project-img" src={require("../assets/palit.png")}/>
                         <div className="project-text-right">Based on the website Coolors, you can generate color palettes for websites and other design projects.
                             <ul>
                                 <li>React</li>
@@ -93,8 +93,8 @@ class Projects extends Component {
                                 <li>Heroku</li>
                             </ul>
                             <div className="buttons-container">
-                                <button><a href="https://github.com/hlhartley/palette-picker" target="_blank">GitHub</a></button>
-                                <button><a href="https://palit-picker.herokuapp.com/" target="_blank">App Link</a></button>
+                                <a href="https://github.com/hlhartley/palette-picker" target="_blank" className="button-link">GitHub</a>
+                                <a href="https://palit-picker.herokuapp.com/" target="_blank" className="button-link">App</a>
                             </div>
                         </div>
                     </div>
@@ -105,13 +105,13 @@ class Projects extends Component {
                                 <li>Redux</li>
                                 <li>React Router</li>
                                 <li>JavaScript</li>
-                                <li><a href="http://makeup-api.herokuapp.com/" target="_blank"></a>Makeup API</li>
+                                <li>Makeup API</li>
                                 <li>SCSS</li>
                                 <li>Jest + Enzyme</li>
                             </ul>
                             <div className="buttons-container">
-                                <button><a href="https://github.com/hlhartley/seasonal-shades" target="_blank">GitHub</a></button>
-                                <button className="disabled-button">App Link</button>
+                                <a href="https://github.com/hlhartley/seasonal-shades" target="_blank" className="button-link">GitHub</a>
+                                <div className="disabled-button">App</div>
                             </div>
                         </div>
                         <img className="project-img" src={require("../assets/seasonal-shades.png")}/>
@@ -127,8 +127,8 @@ class Projects extends Component {
                             <li>Jest + Enzyme</li>
                         </ul>
                         <div className="buttons-container">
-                            <button><a href="https://github.com/hlhartley/swapi-box" target="_blank">GitHub</a></button>
-                            <button className="disabled-button">App Link</button>
+                            <a href="https://github.com/hlhartley/swapi-box" target="_blank" className="button-link">GitHub</a>
+                            <div className="disabled-button">App</div>
                         </div>
                     </div>
                 </div>
@@ -143,8 +143,8 @@ class Projects extends Component {
                             <li>Jest + Enzyme</li>
                         </ul>
                         <div className="buttons-container">
-                            <button><a href="https://github.com/hlhartley/icecream_whateverly" target="_blank">GitHub</a></button>
-                            <button className="disabled-button">App Link</button>
+                            <a href="https://github.com/hlhartley/icecream_whateverly" target="_blank" className="button-link">GitHub</a>
+                            <div className="disabled-button">App</div>
                         </div>
                     </div>
                     <img className="project-img" src={require("../assets/iscream.png")}/>
@@ -163,8 +163,8 @@ class Projects extends Component {
                             <li>Jest + Enzyme</li>
                         </ul>
                         <div className="buttons-container">
-                            <button><a href="https://github.com/hlhartley/PicYourLandmark" target="_blank">GitHub</a></button>
-                            <button className="disabled-button">App Link</button>
+                            <a href="https://github.com/hlhartley/PicYourLandmark" target="_blank" className="button-link">GitHub</a>
+                            <div className="disabled-button">App</div>
                         </div>
                     </div>
                 </div>

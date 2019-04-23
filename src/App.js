@@ -34,10 +34,10 @@ class App extends Component {
         <div className= { this.state.navFixed ? "navigation-container fixed-nav" : "navigation-container" }>
           <div className='logo'><i class="fas fa-heading"></i><i class="fas fa-heading"></i></div>
           <div className='nav-link-container'>
-            <div className="nav-link"><a href="#app">Home</a></div>
-            <div className="nav-link"><a href="#about">About</a></div>
-            <div className="nav-link"><a href="#projects">Projects</a></div>
-            <div className="nav-link"><a href="#contact">Contact</a></div>
+            <div><a href="#app" className="nav-link">Home</a></div>
+            <div><a href="#about" className="nav-link">About</a></div>
+            <div><a href="#projects" className="nav-link">Projects</a></div>
+            <div><a href="#contact" className="nav-link">Contact</a></div>
           </div>
         </div>
         <div id="banner">

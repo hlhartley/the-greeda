@@ -20,19 +20,9 @@
   z-index: 1;
 }
 
-a {
+.nav-link, .nav-link:visited {
   color: white;
   text-decoration: none;
-  letter-spacing: 1px;
-}
-
-a:visited {
-  color: white;
-}
-
-a:hover {
-  color: #8895ab;
-  border-bottom: 1px solid #8895ab;
 }
 
 .fixed-nav {
@@ -44,9 +34,12 @@ a:hover {
 
 .nav-link {
   padding-right: 25px;
-  font-size: 16px;
   font-weight: 600;
   letter-spacing: .5px;
+}
+
+.nav-link:hover {
+  color: #cbcbcb;
 }
 
 .logo {

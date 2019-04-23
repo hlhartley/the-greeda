@@ -22,3 +22,14 @@
 .fas, .fab {
     margin-right: 10px;
 }
+
+.link, link:visited {
+    color: black;
+    font-size: 19.5px;
+}
+
+.link:hover {
+    color: #7e556a;
+    font-size: 19.5px;
+    text-decoration: underline;
+}
