@@ -6,7 +6,7 @@ class Projects extends Component {
 		return (
                 <div className="projects-container">
                     <div className="project">
-                        <img className="project-img" src={require("./assets/listy.png")}/>
+                        <img className="project-img" src={require("./assets/listy-ss.png")}/>
                         <div className="project-text-right">Similar to Google Keep - created with both front-end and back-end frameworks. You can save, edit, and delete personalized notes.
                             <ul>
                                 <li>React</li>
