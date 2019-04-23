@@ -1,17 +1,19 @@
 .projects-container {
-    background-color: #eae7e7; 
+    background-color: #e9e9eb; 
     height: auto;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     width: 100vw;
     justify-content: center;
     align-items: center;
 }
 
 .project-img {
-    height: 300px;
-    width: 585px;
+    height: 500px;
+    width: 850px;
     margin: 40px;
+    border: 35px solid #343434;
+    border-radius: 25px;
 }
 
 .projects-title {
@@ -20,7 +22,6 @@
     font-weight: bold;
     text-decoration: underline;
     display: block;
-    background-color: #eae7e7;
 }
 
 button {

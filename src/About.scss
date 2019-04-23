@@ -1,13 +1,13 @@
 .about-container {
-    background-color: #eae7e7; 
-    height: 300px;
+    background-color: #d1c0c7; 
+    height: 100vh;
     display: flex;
     flex-flow: column;
     align-items: center;
+    justify-content: center;
 }
 
 .about-title {
-    padding-top: 60px;
     font-size: 30px;
     font-weight: bold;
     text-decoration: underline;
