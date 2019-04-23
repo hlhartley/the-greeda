@@ -108,3 +108,97 @@ a:active, a:hover, a, a:visited {
     text-decoration: none;
     font-size: 17px;
 }
+
+@media screen and (max-width: 1400px) {
+    .project-img {
+        height: 375px;
+        width: 637.5px;
+        margin: 40px;
+        border: 35px solid #3f3f40;
+        border-radius: 25px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .project-img {
+        height: 187.5px;
+        width: 318px;
+        margin: 40px;
+        border: 25px solid #3f3f40;
+        border-radius: 25px;
+    }
+
+    .project-phone-img {
+        height: 215px;
+        width: 140px;
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-bottom: 40px;
+        border: 18px solid #3f3f40;
+        border-radius: 25px;
+    }
+
+    .project-text-right {
+        padding-right: 25px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 275px;
+        font-size: 16px;
+    }
+
+    .project-text-left {
+        padding-left: 45px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 275px;
+        font-size: 16px;
+    }
+
+    .project-phone-text-right {
+        padding-right: 80px;
+        padding-left: 80px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 275px;
+        font-size: 16px;
+    }
+
+    ul, li, .button-link, .disabled-button {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .project-img {
+        height: 195px;
+        width: 350px;
+        margin: 40px;
+        border: 25px solid #3f3f40;
+        border-radius: 25px;
+    }
+
+    .project-phone-img {
+        height: 215px;
+        width: 140px;
+        margin-top: 40px;
+        margin-left: 25px;
+        margin-bottom: 40px;
+        border: 18px solid #3f3f40;
+        border-radius: 25px;
+    }
+
+    .project-text-right, .project-text-left, .project-phone-text-right {
+        display: none;
+    }
+    
+    ul, li, .button-link, .disabled-button {
+        font-size: 16px;
+    }
+}
+

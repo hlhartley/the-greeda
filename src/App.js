@@ -32,7 +32,7 @@ class App extends Component {
     return (
       <div className="App" id="app">
         <div className= { this.state.navFixed ? "navigation-container fixed-nav" : "navigation-container" }>
-          <div className='logo'><i class="fas fa-heading"></i><i class="fas fa-heading"></i></div>
+          <div className='logo'> HH</div>
           <div className='nav-link-container'>
             <div><a href="#app" className="nav-link">Home</a></div>
             <div><a href="#about" className="nav-link">About</a></div>

@@ -33,3 +33,13 @@
     font-size: 19.5px;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 700px) {
+    .contact-description {
+        font-size: 18px;
+    }
+
+    .link, link:visited, .link:hover, .contact-email {
+        font-size: 17px;
+    }
+}

@@ -46,10 +46,11 @@
   max-width: 0;
   overflow: hidden;
   transition: all 0.5s;
-  font-weight: 600;
-  font-size: 14px;
+  font-size: 27px;
   color: white;
   padding-left: 11px;
+  font-family: 'Arvo', serif;
+  font-weight: bold;
 }
 
 .fixed-nav .logo {
@@ -58,9 +59,4 @@
 
 .nav-link-container {
   display: flex;
-}
-
-.fa-fly {
-  padding-left: 10px;
-  padding-right: 5px;
 }
