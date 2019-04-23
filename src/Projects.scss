@@ -12,7 +12,7 @@
     height: 500px;
     width: 850px;
     margin: 40px;
-    border: 35px solid #343434;
+    border: 35px solid #3f3f40;
     border-radius: 25px;
 }
 
@@ -26,11 +26,12 @@
 
 button {
     margin-top: 10px;
+    font-size: 17px;
+    letter-spacing: 1px;
     height: 30px;
     min-width: 88px;
-    padding: 3px 8px;
+    padding: 5px 15px;
     margin: 10px;
-    line-height: 1.5;
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
@@ -38,11 +39,11 @@ button {
     cursor: pointer;
     border:0;
     border-radius: 2px;
-    background: #9c27b0;
+    background: #419768;
     color:#fff;
     outline:0;
     &:hover {
-        background: darken(#9c27b0, 12%)  
+        background: darken(#419768, 12%)  
     }
 }
 
@@ -59,6 +60,31 @@ button {
     }
 }
 
-.project-description {
-    width: 590px;
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-text-right {
+    padding-right: 25px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 375px;
+}
+
+.project-text-left {
+    padding-left: 45px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 375px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
 }
