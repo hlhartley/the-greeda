@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
-import './Projects.scss';
+import '../Projects/Projects.scss';
 
 class Projects extends Component {
+    constructor () {
+        super()
+      }
+      componentDidMount() {
+        console.log('projects', document.querySelector('.projects-container').offsetTop)
+      }
 	render() {
 		return (
                 <div className="projects-container">
                     <div className="project">
-                        <img className="project-img" src={require("./assets/listy-ss.png")}/>
+                        <img className="project-img" src={require("../assets/listy-ss.png")}/>
                         <div className="project-text-right">Similar to Google Keep - created with both front-end and back-end frameworks. You can save, edit, and delete personalized notes.
                             <ul>
                                 <li>React</li>
@@ -39,11 +45,11 @@ class Projects extends Component {
                                 <button className="disabled-button">App Link</button>
                             </div>
                         </div>
-                        <img className="project-img" src={require("./assets/movie-tracker.png")}/>
+                        <img className="project-img" src={require("../assets/movie-tracker.png")}/>
                     </div>
                     <div className="project">
-                        <img className="project-img" src={require("./assets/terminal-commander.png")}/>
-                        <div className="project-text-right">A fun and interactive game with special CSS animations that allows you to enhance muscle memory by repetitively typing actual terminal commands into the input box.
+                        <img className="project-img" src={require("../assets/terminal-commander.png")}/>
+                        <div className="project-text-right">A fun and interactive game with special CSS animations that allows you to enhance muscle memory by repetitively typing in actual terminal commands.
                             <ul>
                                 <li>React</li>
                                 <li>SCSS</li>
@@ -68,10 +74,10 @@ class Projects extends Component {
                                 <button><a href="http://harvard-art-project.s3-website-us-west-2.amazonaws.com/" target="_blank">App Link</a></button>
                             </div>
                         </div>
-                        <img className="project-img" src={require("./assets/harvard-art-project.png")}/>
+                        <img className="project-img" src={require("../assets/harvard-art-project.png")}/>
                     </div>
                     <div className="project">
-                        <img className="project-img" src={require("./assets/pallit_picker_desktop.png")}/>
+                        <img className="project-img" src={require("../assets/pallit_picker_desktop.png")}/>
                         <div className="project-text-right">Based on the website Coolors, you can generate color palettes for websites and other design projects.
                             <ul>
                                 <li>React</li>
@@ -106,10 +112,10 @@ class Projects extends Component {
                                 <button className="disabled-button">App Link</button>
                             </div>
                         </div>
-                        <img className="project-img" src={require("./assets/seasonal-shades.png")}/>
+                        <img className="project-img" src={require("../assets/seasonal-shades.png")}/>
                     </div>
                 <div className="project">
-                    <img className="project-img" src={require("./assets/swapi-box.png")}/>
+                    <img className="project-img" src={require("../assets/swapi-box.png")}/>
                     <div className="project-text-right">Lets you search through the Starwars database to find your favorite characters, planets, and vehicles as well as save your favorite cards to local storage.
                         <ul>
                             <li>React</li>
@@ -139,11 +145,11 @@ class Projects extends Component {
                             <button className="disabled-button">App Link</button>
                         </div>
                     </div>
-                    <img className="project-img" src={require("./assets/iscream.png")}/>
+                    <img className="project-img" src={require("../assets/iscream.png")}/>
                 </div>
                 <div className="project">
-                    <img className="project-phone-img" src={require("./assets/picyourlandmarklogin.png")}/>
-                    <img className="project-phone-img" src={require("./assets/picyourlandmark.png")}/>
+                    <img className="project-phone-img" src={require("../assets/picyourlandmarklogin.png")}/>
+                    <img className="project-phone-img" src={require("../assets/picyourlandmark.png")}/>
                     <div className="project-phone-text-right">Based on the famous game 'Pokemon Go' - except you can 'collect' famous landmarks! When you visit a landmark, you can take and store your picture in the app. You gain points/gems based on how many landmarks you have 'collected'.
                         <ul>
                             <li>React Native</li>

@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
-import './Contact.scss';
+import '../Contact/Contact.scss';
 
 class Contact extends Component {
+    constructor () {
+        super()
+      }
+      componentDidMount() {
+        console.log('contact', document.querySelector('.contact-container').offsetTop)
+      }
 	render() {
 		return (
 			<div className="contact-container">
-                <div className="contact-description">If you have any questions or comments, please feel free to contact me:</div>
+                <div className="contact-description">Please feel free to contact me. Thanks for visiting!</div>
                 <div className="contact-info-container">
                     <div><i class="fas fa-envelope"></i> hlhartley@gmail.com</div>
                     <div><i class="fab fa-linkedin"></i> https://www.linkedin.com/in/heatherleehartley/</div>
