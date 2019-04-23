@@ -4,10 +4,11 @@ import '../Projects/Projects.scss';
 class Projects extends Component {
     constructor () {
         super()
-      }
-      componentDidMount() {
+    }
+    componentDidMount() {
         console.log('projects', document.querySelector('.projects-container').offsetTop)
-      }
+    }
+
 	render() {
 		return (
                 <div className="projects-container">
@@ -30,7 +31,7 @@ class Projects extends Component {
                         </div>
                     </div>
                     <div className="project">
-                        <div className="project-text-left">You can browse the newest movies as well as collect your favorite movies.
+                        <div className="project-text-left">You can browse the newest releases as well as collect your favorite movies.
                             <ul>
                                 <li>React</li>
                                 <li>Redux</li>
@@ -66,6 +67,7 @@ class Projects extends Component {
                         <div className="project-text-left">A Vue-based app which showcases as well as promotes certain selections of Korean art from the Harvard Art Museum. The carousel allows you to easily swipe through the paintings one by one while viewing the associated title and info.
                             <ul>
                                 <li>Vue</li>
+                                <li>Harvard Art Museum API</li>
                                 <li>SCSS</li>
                                 <li>Amazon Web Services - S3</li>
                             </ul>
@@ -132,7 +134,7 @@ class Projects extends Component {
                 </div>
                 
                 <div className="project">
-                    <div className="project-text-left">You can easily see all of the ice cream flavors available throughout Denver as well as explore and filter for new and exciting flavors.
+                    <div className="project-text-left">You can easily see all of the ice cream flavors available throughout Denver and Aurora as well as explore and filter for new and exciting flavors.
                         <ul>
                             <li>React</li>
                             <li>JavaScript</li>
