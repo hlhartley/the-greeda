@@ -13,7 +13,7 @@ class Projects extends Component {
 		return (
                 <div className="projects-container">
                     <div className="project">
-                        <img className="project-img" src={require("../assets/listy-ss.png")}/>
+                    <a href="https://github.com/hlhartley/listy" target="_blank"><img className="project-img" src={require("../assets/listy-ss.png")}/></a>
                         <div className="project-text-right">Similar to Google Keep - created with both front-end and back-end frameworks. You can save, edit, and delete personalized notes.
                             <ul>
                                 <li>React</li>
@@ -46,10 +46,10 @@ class Projects extends Component {
                                 <div className="disabled-button">App</div>
                             </div>
                         </div>
-                        <img className="project-img" src={require("../assets/movie-tracker.png")}/>
+                        <a href="https://github.com/hlhartley/movie-tracker-app" target="_blank"><img className="project-img" src={require("../assets/movie-tracker.png")}/></a>
                     </div>
                     <div className="project">
-                        <img className="project-img" src={require("../assets/terminal-commander.png")}/>
+                    <a href="https://github.com/hlhartley/terminal-commander" target="_blank"><img className="project-img" src={require("../assets/terminal-commander.png")}/></a>
                         <div className="project-text-right">A fun and interactive game with special CSS animations that allows you to enhance muscle memory by repetitively typing in actual terminal commands.
                             <ul>
                                 <li>React</li>
@@ -76,10 +76,10 @@ class Projects extends Component {
                                 <a href="http://harvard-art-project.s3-website-us-west-2.amazonaws.com/" target="_blank" className="button-link">App</a>
                             </div>
                         </div>
-                        <img className="project-img" src={require("../assets/harvard-art-project.png")}/>
+                        <a href="https://github.com/hlhartley/harvard-art-project" target="_blank"><img className="project-img" src={require("../assets/harvard-art-project.png")}/></a>
                     </div>
                     <div className="project">
-                        <img className="project-img" src={require("../assets/palit.png")}/>
+                    <a href="https://github.com/hlhartley/palette-picker" target="_blank"><img className="project-img" src={require("../assets/palit.png")}/></a>
                         <div className="project-text-right">Based on the website Coolors, you can generate color palettes for websites and other design projects.
                             <ul>
                                 <li>React</li>
@@ -114,10 +114,10 @@ class Projects extends Component {
                                 <div className="disabled-button">App</div>
                             </div>
                         </div>
-                        <img className="project-img" src={require("../assets/seasonal-shades.png")}/>
+                        <a href="https://github.com/hlhartley/seasonal-shades" target="_blank"><img className="project-img" src={require("../assets/seasonal-shades.png")}/></a>
                     </div>
                 <div className="project">
-                    <img className="project-img" src={require("../assets/swapi-box.png")}/>
+                <a href="https://github.com/hlhartley/swapi-box" target="_blank"><img className="project-img" src={require("../assets/swapi-box.png")}/></a>
                     <div className="project-text-right">Lets you search through the Starwars database to find your favorite characters, planets, and vehicles as well as save your favorite cards to local storage.
                         <ul>
                             <li>React</li>
@@ -147,11 +147,11 @@ class Projects extends Component {
                             <div className="disabled-button">App</div>
                         </div>
                     </div>
-                    <img className="project-img" src={require("../assets/iscream.png")}/>
+                    <a href="https://github.com/hlhartley/icecream_whateverly" target="_blank"><img className="project-img" src={require("../assets/iscream.png")}/></a>
                 </div>
                 <div className="project">
-                    <img className="project-phone-img" src={require("../assets/picyourlandmarklogin.png")}/>
-                    <img className="project-phone-img" src={require("../assets/picyourlandmark.png")}/>
+                    <a href="https://github.com/hlhartley/PicYourLandmark" target="_blank"><img className="project-phone-img" src={require("../assets/picyourlandmarklogin.png")}/></a>
+                    <a href="https://github.com/hlhartley/PicYourLandmark" target="_blank"><img className="project-phone-img" src={require("../assets/picyourlandmark.png")}/></a>
                     <div className="project-phone-text-right">Based on the famous game 'Pokemon Go' - except you can 'collect' famous landmarks! When you visit a landmark, you can take and store your picture in the app. You gain points/gems based on how many landmarks you have 'collected'.
                         <ul>
                             <li>React Native</li>
