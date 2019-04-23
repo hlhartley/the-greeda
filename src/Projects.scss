@@ -33,7 +33,7 @@
     display: block;
 }
 
-button {
+button, .disabled-button {
     margin-top: 10px;
     font-size: 17px;
     letter-spacing: 1px;
@@ -53,6 +53,14 @@ button {
     outline:0;
     &:hover {
         background: darken(#419768, 12%)  
+    }
+}
+
+.disabled-button {
+    opacity: .7;
+    background: grey;
+    &:hover {
+        background: grey  
     }
 }
 
@@ -106,4 +114,9 @@ button {
 .buttons-container {
     display: flex;
     justify-content: center;
+}
+
+a:active, a:hover, a, a:visited {
+    text-decoration: none;
+    font-size: 17px;
 }
