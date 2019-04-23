@@ -1,0 +1,24 @@
+.contact-container {
+    background-color: #d1c0c7; 
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info-container {
+    margin-top: 70px;
+    line-height: 35px;
+    text-align: left;
+}
+
+.contact-description {
+    margin-top: 60px;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.fas, .fab {
+    margin-right: 10px;
+}

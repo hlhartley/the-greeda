@@ -4,6 +4,7 @@ import Banner from './Banner';
 import Navigation from './Navigation';
 import About from './About';
 import Projects from './Projects';
+import Contact from './Contact';
 
 class App extends Component {
   constructor() {
@@ -35,6 +36,7 @@ class App extends Component {
         <Banner />
         <About />
         <Projects />
+        <Contact />
       </div>
     );
   }

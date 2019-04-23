@@ -9,7 +9,6 @@ class Navigation extends Component {
 				<div className='nav-link-container'>
 					<div className="nav-link">About</div>
 					<div className="nav-link">Portfolio</div>
-					<div className="nav-link">Testimonials</div>
 					<div className="nav-link">Contact</div>
 				</div>
 			</div>
