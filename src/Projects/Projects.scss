@@ -2,7 +2,7 @@
     background-color: #e9e9eb; 
     display: flex;
     flex-flow: row wrap;
-    width: 100vw;
+    width: 100%;
     justify-content: center;
     align-items: center;
 }
@@ -10,7 +10,6 @@
 .project-img {
     height: 500px;
     width: 850px;
-    margin: 40px;
     border: 35px solid #3f3f40;
     border-radius: 25px;
 }
@@ -129,10 +128,9 @@ a:active, a:hover, a, a:visited {
     }
 
     .project-phone-img {
-        height: 215px;
-        width: 140px;
+        height: 205px;
+        width: 120px;
         margin-top: 40px;
-        margin-left: 40px;
         margin-bottom: 40px;
         border: 18px solid #3f3f40;
         border-radius: 25px;
@@ -177,18 +175,15 @@ a:active, a:hover, a, a:visited {
 @media screen and (max-width: 700px) {
     .project-img {
         height: 195px;
-        width: 350px;
-        margin: 40px;
         border: 25px solid #3f3f40;
         border-radius: 25px;
     }
 
     .project-phone-img {
-        height: 215px;
-        width: 140px;
-        margin-top: 40px;
-        margin-left: 25px;
-        margin-bottom: 40px;
+        height: 200px;
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-bottom: 20px;
         border: 18px solid #3f3f40;
         border-radius: 25px;
     }
@@ -202,3 +197,8 @@ a:active, a:hover, a, a:visited {
     }
 }
 
+@media screen and (max-width: 600px) {
+    .project-img {
+        width: 230px;
+    }
+}

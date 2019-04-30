@@ -29,13 +29,13 @@
   /* The typing effect */
   @keyframes typing {
     from { width: 0 }
-    to { width: 415px }
+    to { width: 77% }
   }
   
   /* The typewriter cursor effect */
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    35% { border-color: orange }
+    18% { border-color: orange }
   }
 
   @media screen and (max-width: 1100px) {
@@ -53,6 +53,11 @@
   @media screen and (max-width: 700px) {
     .typewriter h1 {
       font-size: 12px;
+      margin-top: 40px;
+    }
+
+    .container {
+      justify-content: flex-start
     }
   }
 

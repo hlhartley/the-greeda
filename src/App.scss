@@ -5,6 +5,7 @@
 
 .App {
   text-align: center;
+  width: 100vw;
 }
 
 .navigation-container {
@@ -59,4 +60,14 @@
 
 .nav-link-container {
   display: flex;
+}
+
+@media screen and (max-width: 700px) {
+  .fixed-nav {
+      display: none;
+  }
+
+  .navigation-container {
+    justify-content: space-around;
+  }
 }
