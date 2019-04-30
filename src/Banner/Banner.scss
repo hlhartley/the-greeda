@@ -51,19 +51,20 @@
 
   @media screen and (max-width: 900px) {
     span {
-      font-size: 17px;
+      font-size: 14px;
     }
   }
 
   @media screen and (max-width: 700px) {
     .typewriter h1 {
-      margin-top: 30px;
+      margin-top: 6px;
+    }
+    .container {
+      height: 255px;
+      justify-content: flex-start;
+      background-size: 100% 255px;
     }
 
-    .container {
-      justify-content: flex-start;
-      background-size: 100% 510px;
-    }
   }
 
   @media screen and (max-width: 500px) {
