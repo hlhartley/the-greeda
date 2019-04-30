@@ -1,3 +1,8 @@
+  span {
+    font-family: monospace;
+    font-size: 20px;
+  }
+  
   .container {
     height: 498px;
     width: 100%;
@@ -29,7 +34,7 @@
   /* The typing effect */
   @keyframes typing {
     from { width: 0 }
-    to { width: 77% }
+    to { width: 340px }
   }
   
   /* The typewriter cursor effect */
@@ -39,20 +44,19 @@
   }
 
   @media screen and (max-width: 1100px) {
-    .typewriter h1 {
+    span {
       font-size: 19px;
     }
   }
 
   @media screen and (max-width: 900px) {
-    .typewriter h1 {
-      font-size: 15px;
+    span {
+      font-size: 17px;
     }
   }
 
   @media screen and (max-width: 700px) {
     .typewriter h1 {
-      font-size: 12px;
       margin-top: 40px;
     }
 
