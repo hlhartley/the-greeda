@@ -60,11 +60,13 @@
       margin-top: 6px;
     }
     .container {
-      height: 255px;
+      height: 305px;
       justify-content: flex-start;
-      background-size: 100% 255px;
+      background-size: 100% 305px;
     }
-
+    span {
+      font-size: 14px;
+    }
   }
 
   @media screen and (max-width: 500px) {
