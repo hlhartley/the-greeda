@@ -10,7 +10,7 @@ class Banner extends Component {
   }
   render() {
     return (
-        <div className='typewriter container'><h1><span>Hello!</span><span> I'm Heather Hartley</span></h1></div>
+        <div className='typewriter container'><h1>Hello! I'm Heather Hartley</h1></div>
     )
   }
 }
