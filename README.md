@@ -8,5 +8,5 @@ A website about me as a front-end engineer, including my work/projects.
 ### Screenshot:
 ![Screenshot](heather-hartley-portfolio.png)
 
-### In Development:
-* Media queries for desktop / mobile devices 
+### Future Enhancements:
+* Make nav bar into hambuger nav bar for mobile devices
