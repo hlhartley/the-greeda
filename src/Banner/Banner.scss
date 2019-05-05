@@ -67,7 +67,7 @@
     }
   }
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1050px) {
     .typewriter h1 {
       position: absolute;
       top: 35%;
@@ -88,9 +88,9 @@
   @media screen and (max-width: 900px) {
     .typewriter h1 {
       position: absolute;
-      top: 35%;
+      top: 13%;
       left: 30%;
-      font-size: 17px;
+      font-size: 21px;
     }
   }
 
@@ -126,8 +126,13 @@
     .typewriter h1 {
       position: absolute;
       left: 14%;
-      top: 13%;
+      top: 8%;
       font-size: 18px;
+    }
+
+    .container {
+      background-size: 100% 295px;
+      height: 295px;
     }
 
     @keyframes typing {
@@ -136,11 +141,30 @@
     }
   }
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 415px) {
     .typewriter h1 {
       position: absolute;
-      left: 12%;
-      top: 13%;
+      left: 10%;
+      top: 8%;
+      font-size: 18px;
+    }
+
+    .container {
+      background-size: 100% 295px;
+      height: 295px;
+    }
+
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 350px }
+    }
+  }
+
+  @media screen and (max-width: 376px) {
+    .typewriter h1 {
+      position: absolute;
+      left: 11%;
+      top: 8%;
       font-size: 15px;
     }
 
@@ -150,11 +174,11 @@
     }
   }
 
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 329px) {
     .typewriter h1 {
       position: absolute;
-      left: 14px;
-      top: 13%;
+      left: 6%;
+      top: 10%;
       font-size: 15px;
     }
   }
