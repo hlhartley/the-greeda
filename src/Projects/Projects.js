@@ -21,6 +21,7 @@ class Projects extends Component {
                                 <li>React Router</li>
                                 <li>JavaScript</li>
                                 <li>SCSS</li>
+                                <li>Node</li>
                                 <li>Express</li>
                                 <li>Jest + Supertest</li>
                             </ul>
@@ -39,6 +40,7 @@ class Projects extends Component {
                                 <li>JavaScript</li>
                                 <li>TMDb API</li>
                                 <li>SCSS</li>
+                                <li>Express</li>
                                 <li>Jest + Enzyme</li>
                             </ul>
                             <div className="buttons-container">
@@ -90,6 +92,7 @@ class Projects extends Component {
                                 <li>Knex</li>
                                 <li>PostgreSQL</li>
                                 <li>Jest + Enzyme</li>
+                                <li>Travis CI</li>
                                 <li>Heroku</li>
                             </ul>
                             <div className="buttons-container">
@@ -170,12 +173,14 @@ class Projects extends Component {
                     <div className="project-phone-text-right">Based on the famous game 'Pokemon Go' - except you can 'collect' famous landmarks! When you visit a landmark, you can take and store your picture in the app. You gain points/gems based on how many landmarks you have 'collected'. Download our app from Google Play store on your Android mobile device today!
                         <ul>
                             <li>React Native</li>
+                            <li>JavaScript</li>
+                            <li>Geocoder API</li>
                             <li>SCSS</li>
-                            <li>Travis CI</li>
                             <li>Django</li>
                             <li>Rest_framework</li>
                             <li>PostgreSQL</li>
                             <li>Jest + Enzyme</li>
+                            <li>Travis CI</li>
                             <li>Google Play store</li>
                         </ul>
                         <div className="buttons-container">
