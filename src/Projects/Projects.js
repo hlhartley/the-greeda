@@ -131,7 +131,6 @@ class Projects extends Component {
                         <div className="buttons-container">
                             <a href="https://github.com/hlhartley/swapi-box" target="_blank" className="button-link">GitHub</a>
                             <a href="http://swapi-box.s3-website-us-west-2.amazonaws.com/" target="_blank" className="button-link">App</a>
-                            <div className="disabled-button">App</div>
                         </div>
                     </div>
                 </div>
@@ -148,13 +147,12 @@ class Projects extends Component {
                         <div className="buttons-container">
                             <a href="https://github.com/hlhartley/icecream_whateverly" target="_blank" className="button-link">GitHub</a>
                             <a href="http://icecream-whateverly.s3-website-us-west-2.amazonaws.com/" target="_blank" className="button-link">App</a>
-                            <div className="disabled-button">App</div>
                         </div>
                     </div>
                     <a href="https://github.com/hlhartley/icecream_whateverly" target="_blank"><img className="project-img" src={require("../assets/iscream.png")}/></a>
                 </div>
                 <div className="project">
-                    <a href="https://github.com/hlhartley/wheeloffortune" target="_blank"><img className="project-img" src={require("../assets/wheeloffortuness.png")}/></a>
+                    <a href="https://github.com/hlhartley/wheeloffortune" target="_blank"><img className="project-img" src={require("../assets/spin2win.png")}/></a>
                         <div className="project-text-right">$pin 2 !win is a take on the classic game show Wheel of Fortune. Players can test their luck by guessing phrases and winning a variety of monetary prizes through four rounds of fun. This web app was built using Object Oriented Principles in Javascript.
                             <ul>
                                 <li>JavaScript + OOP</li>
@@ -169,8 +167,6 @@ class Projects extends Component {
                         </div>
                     </div>
                 <div className="project">
-                    <a href="https://github.com/hlhartley/PicYourLandmark" target="_blank"><img className="project-phone-img" src={require("../assets/picyourlandmarklogin.png")}/></a>
-                    <a href="https://github.com/hlhartley/PicYourLandmark" target="_blank"><img className="project-phone-img" src={require("../assets/picyourlandmark.png")}/></a>
                     <div className="project-phone-text-right">Based on the famous game 'Pokemon Go' - except you can 'collect' famous landmarks! When you visit a landmark, you can take and store your picture in the app. You gain points/gems based on how many landmarks you have 'collected'. Download our app from Google Play store on your Android mobile device today!
                         <ul>
                             <li>React Native</li>
@@ -187,6 +183,8 @@ class Projects extends Component {
                             <a href="https://play.google.com/store/apps/details?id=com.heatherandmatt.picyourlandmark" target="_blank" className="button-link">App</a>
                         </div>
                     </div>
+                    <a href="https://github.com/hlhartley/PicYourLandmark" target="_blank"><img className="project-phone-img" src={require("../assets/picyourlandmarklogin.png")}/></a>
+                    <a href="https://github.com/hlhartley/PicYourLandmark" target="_blank"><img className="project-phone-img" src={require("../assets/picyourlandmark.png")}/></a>
                 </div>
             </div>
 		)
