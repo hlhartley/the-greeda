@@ -6,9 +6,7 @@ A website about me as a front-end engineer, including my work/projects.
 [My Portfolio](http://heather-hartley-portfolio.s3-website-us-west-2.amazonaws.com/)
 
 ### Screenshot:
-![Screenshot](Screen Shot 2020-04-04 at 5.43.34 PM.png)
+![Screenshot](portfolio-ss.png)
 
 ### Future Enhancements:
 * Make nav bar into hambuger nav bar for mobile devices
-* Fix bug - when user scrolls down, welcome text drops down
-* Add more media queries for various screen sizes (esp in regards to welcome text)
