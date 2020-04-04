@@ -10,7 +10,7 @@ Desktop:
 ![Desktop Screenshot](portfolio-ss.png)
 
 Mobile:
-![Mobile Screenshot]()
+![Mobile Screenshot](portfolio-mobile-ss.png)
 
 ### Future Enhancements:
 * Make nav bar into hambuger nav bar for mobile devices
