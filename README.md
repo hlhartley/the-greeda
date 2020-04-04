@@ -7,7 +7,7 @@ A website about me as a front-end engineer, including my work/projects.
 
 ### Screenshots:
 Desktop:
-![Desktop Screenshot](portfolio-ss.png)
+![Desktop Screenshot](desktop-portfolio-ss.png)
 
 Mobile:  
 ![Mobile Screenshot](portfolio-mobile-ss.png)
