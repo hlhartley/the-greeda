@@ -6,7 +6,7 @@ A website about me as a front-end engineer, including my work/projects.
 [My Portfolio](http://heather-hartley-portfolio.s3-website-us-west-2.amazonaws.com/)
 
 ### Screenshot:
-![Screenshot](hh-portfolio-ss.png)
+![Screenshot](Screen Shot 2020-04-04 at 5.43.34 PM.png)
 
 ### Future Enhancements:
 * Make nav bar into hambuger nav bar for mobile devices
