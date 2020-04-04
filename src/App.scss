@@ -1,17 +1,11 @@
-* {
-  font-size: 20px;
-  font-family: 'Raleway', sans-serif;
-}
-
 .App {
-  text-align: center;
-  width: 100vw;
+  width: 100%;
 }
 
 .navigation-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   background-color: #7e556a;
   color: white;
   height: 50px;
@@ -43,26 +37,11 @@
   color: #cbcbcb;
 }
 
-.logo {
-  max-width: 0;
-  overflow: hidden;
-  transition: all 0.5s;
-  font-size: 27px;
-  color: white;
-  padding-left: 11px;
-  font-family: 'Arvo', serif;
-  font-weight: bold;
-}
-
-.fixed-nav .logo {
-  max-width: 500px;
-}
-
 .nav-link-container {
   display: flex;
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 480px) {
   .nav-link {
     font-size: 16px;
   }

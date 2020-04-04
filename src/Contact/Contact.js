@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../Contact/Contact.scss';
+import '../main.scss';
 
 class Contact extends Component {
     constructor () {
@@ -11,13 +11,12 @@ class Contact extends Component {
 	render() {
 		return (
 			<div className="contact-container">
-                <div className="contact-description">Feel free to contact me. Thanks!</div>
-                <div className="contact-info-container">
-                    <div className="contact-email"><i class="fas fa-envelope"></i> hlhartley@gmail.com</div>
-                    <div><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/heatherleehartley/" target="_blank" className="link">heatherleehartley</a></div>
-                    <div><i class="fab fa-github"></i> <a href="https://github.com/hlhartley" target="_blank" className="link">hlhartley</a></div>
-                </div>
-            </div>
+        <div className="contact-info-container">
+          <div className="contact-email"><i class="fas fa-envelope"></i> hlhartley@gmail.com</div>
+          <div><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/heatherleehartley/" target="_blank" className="link">heatherleehartley</a></div>
+          <div><i class="fab fa-github"></i> <a href="https://github.com/hlhartley" target="_blank" className="link">hlhartley</a></div>
+        </div>
+    </div>
 		);
 	}
 }

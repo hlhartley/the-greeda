@@ -1,184 +1,67 @@
-  .container {
-    height: 90vh;
-    width: 100%;
+.description_container {
+  font-size: 20px;
+  height: 65vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  line-height: 35px;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1.5px;
+  padding: 0;
+  margin: 0;
+  background-image: url('./assets/road-trip.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  opacity: 0.95;
+  text-align: center;
+  
+  .profile-container {
     display: flex;
+    width: 40%;
     flex-direction: column;
-    line-height: 35px;
-    letter-spacing: 1.5px;
-    padding: 0;
-    margin: 0;
-    background-image: url('../assets/flower-computer.jpg');
-    background-size: cover;
-  }
+    justify-content: center;
+    align-items: center;
 
-  h1 {
-    position: absolute;
-    top: 45%;
-    left: 37%;
-  }
-  
-  .typewriter h1 {
-    color: black;
-    font-family: monospace;
-    font-size: 21px;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
-    animation: 
-      typing 3.5s steps(40, end),
-      blink-caret .5s step-end infinite;
-  }
-  
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 400px }
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    18% { border-color: orange }
-  }
+    h1 {
+      font-size: 55px;
+      letter-spacing: 0.15em;
+    }
 
-  @media screen and (max-width: 1400px) {
-    .typewriter h1 {
-      position: absolute;
-      top: 35%;
-      left: 35%;
+    small {
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: bold;
     }
   }
 
-  @media screen and (max-width: 1200px) {
-    .typewriter h1 {
-      position: absolute;
-      top: 35%;
-      left: 36%;
+  @media only screen and (max-width: 1025px) {
+    .profile-container {
+      width: 100%;
+      
+      h1 {
+        font-size: 35px;
+      }
+      
+      small {
+        font-size: 14px;
+      }
+      
+      .about-text {
+        padding: 0 20px;
+        font-size: 18px;
+      }
     }
   }
 
-  @media screen and (max-width: 1100px) {
-    .typewriter h1 {
-      position: absolute;
-      top: 35%;
-      left: 39%;
+  @media only screen and (max-width: 480px) {
+    height: 87vh;
+
+    .about-text {
+      display: none;
     }
   }
+}
 
-  @media screen and (max-width: 1050px) {
-    .typewriter h1 {
-      position: absolute;
-      top: 35%;
-      left: 32%;
-      font-size: 18px;
-    }
-
-    .container {
-      background-size: 100% 100%;
-    }
-
-    @keyframes typing {
-      from { width: 0 }
-      to { width: 350px }
-    }
-  }
-
-  @media screen and (max-width: 900px) {
-    .typewriter h1 {
-      position: absolute;
-      top: 13%;
-      left: 30%;
-      font-size: 21px;
-    }
-  }
-
-  @media screen and (max-width: 800px) {
-    .typewriter h1 {
-      position: absolute;
-      left: 22%;
-      top: 13%;
-      font-size: 21px;
-    }
-
-    @keyframes typing {
-      from { width: 0 }
-      to { width: 400px }
-    }
-  }
-
-  @media screen and (max-width: 700px) {
-    .typewriter h1 {
-      position: absolute;
-      left: 20%;
-      top: 13%;
-      font-size: 21px;
-    }
-
-    @keyframes typing {
-      from { width: 0 }
-      to { width: 400px }
-    }
-  }
-
-  @media screen and (max-width: 530px) {
-    .typewriter h1 {
-      position: absolute;
-      left: 14%;
-      top: 8%;
-      font-size: 18px;
-    }
-
-    .container {
-      background-size: 100% 295px;
-      height: 295px;
-    }
-
-    @keyframes typing {
-      from { width: 0 }
-      to { width: 350px }
-    }
-  }
-
-  @media screen and (max-width: 415px) {
-    .typewriter h1 {
-      position: absolute;
-      left: 10%;
-      top: 8%;
-      font-size: 18px;
-    }
-
-    .container {
-      background-size: 100% 275px;
-      height: 275px;
-    }
-
-    @keyframes typing {
-      from { width: 0 }
-      to { width: 350px }
-    }
-  }
-
-  @media screen and (max-width: 376px) {
-    .typewriter h1 {
-      position: absolute;
-      left: 11%;
-      top: 10%;
-      font-size: 15px;
-    }
-
-    @keyframes typing {
-      from { width: 0 }
-      to { width: 300px }
-    }
-  }
-
-  @media screen and (max-width: 329px) {
-    .typewriter h1 {
-      position: absolute;
-      left: 6%;
-      top: 10%;
-      font-size: 15px;
-    }
-  }

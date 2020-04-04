@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
-import '../Banner/Banner.scss';
+import '../main.scss';
 
 class Banner extends Component {
-  constructor () {
+  constructor() {
     super()
-  }
-  componentDidMount() {
-    console.log('banner', document.querySelector('.container').offsetTop)
   }
   render() {
     return (
-        <div className='typewriter container'><h1>Hello! I'm Heather Hartley</h1></div>
+      <div className='description_container'>
+        <div className='profile-container'>
+          <h1>Heather Hartley</h1>
+          <small>Software Developer</small>
+          <p className="about-text">My favorite part of being a Frontend Engineer is developing visually-appealing, interactive, responsive sites/apps. Some of my personal projects and designs are displayed below</p>
+        </div>
+      </div>
     )
   }
 }

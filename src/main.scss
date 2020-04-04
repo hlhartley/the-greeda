@@ -1,0 +1,10 @@
+@import './normalize.css';
+@import './App.scss';
+@import './Banner/Banner.scss';
+@import './Projects/Projects.scss';
+@import './Contact/Contact.scss';
+
+* {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5;
+}
