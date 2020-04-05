@@ -3,6 +3,9 @@ import './main.scss';
 import Banner from './Banner/Banner';
 import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 class App extends Component {
   constructor() {
