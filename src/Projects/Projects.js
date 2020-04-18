@@ -19,7 +19,7 @@ class Projects extends Component {
             <div className="disabled-button">App</div>
           </div>
         </div>
-        <div className="project">
+        <div className="project" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="500" data-aos-once="true" data-aos-delay="150">
           <a href="https://github.com/hlhartley/hlhartley-word-war-1" target="_blank"><img className="project-img" src={require("../assets/word-war-1.png")} /></a>
           <div className="buttons-container">
             <a href="https://github.com/hlhartley/hlhartley-word-war-1" target="_blank" className="button-link">GitHub</a>
