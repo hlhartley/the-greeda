@@ -1,9 +1,12 @@
-# Heather Hartley's Portfolio
+# The Greeda
 
-A website about me as a front-end engineer, including my work/projects.
+I designed and created a website for my sister Ji-hee's business in Korea, 더그리다 (The Greeda). It displays her shop's services, course info, and gallery photos.
+- Fully responsive on mobile, ipad, and desktop
+- Built in React using React Router
+- Hosted on AWS
 
-### Portfolio Link:
-[My Portfolio](http://heather-hartley-portfolio.s3-website-us-west-2.amazonaws.com/)
+### Website Link:
+[The Greeda](http://the-greeda.s3-website.ap-northeast-2.amazonaws.com/)
 
 ### Screenshots:
 Desktop:
@@ -11,7 +14,3 @@ Desktop:
 
 Mobile:  
 ![Mobile Screenshot](portfolio-mobile-ss.png)
-
-### Future Enhancements:
-* Make nav bar into hambuger nav bar for mobile devices
-# the-greeda
