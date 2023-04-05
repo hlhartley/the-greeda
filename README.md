@@ -10,10 +10,13 @@ I designed and created a website for my sister Ji-hee's business in Korea, ÎçîÍ∑
 
 ### Screenshots:
 Desktop:
+
 ![Desktop Screenshot](The_Greeda_Homepage_desktop.png)
 
 iPad:
+
 ![iPad Screenshot](The_Greeda_Homepage_ipad.png)
 
 Mobile:  
+
 ![Mobile Screenshot](The_Greeda_Homepage_mobile.png)
