@@ -1,0 +1,124 @@
+.gallery-container {
+  margin: 15px;
+  font-size: 18px;
+  width: 100%;
+  color: #545454;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .image-modal {
+    position: fixed;
+    height: 85vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #545454;
+    background-color: white;
+    z-index: 100;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    .modal-image-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      width: 70%;
+      margin: auto;
+
+      img {
+        width: 85%;
+      }
+    }
+
+    .close-button-container {
+      height: 70px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+
+      .close-button {
+        padding: 25px;
+        cursor: pointer;
+
+        i {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+
+  .images-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 70%;
+
+    .gallery-banner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 55vw;
+      }
+    }
+
+    .image-container {
+      padding: 0 5px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .gallery-container {
+    margin: 0;
+    width: 100vw;
+
+    .image-modal {
+      height: 100vh;
+      width: 100vw;
+      border: none;
+      z-index: 100;
+      left: 0;
+      top: 0;
+      transform: none;
+
+      .modal-image-container {
+        width: 100%;
+      }
+
+      .close-button-container {
+        .close-button {
+          padding: 22px;
+        }
+      }
+    }
+
+    .images-container {
+      width: 100%;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .gallery-banner {
+      img {
+        width: 100vw;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .gallery-container {
+    .images-container {
+      grid-template-columns: repeat(2, 1fr);
+      .image-container {
+        img {
+          width: 45vw;
+        }
+      }
+    }
+  }
+}

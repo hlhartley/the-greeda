@@ -2,51 +2,133 @@
   width: 100%;
 }
 
+.display-block {
+  display: block;
+}
+
+.display-hidden {
+  display: none;
+}
+
+.logo {
+  font-size: 25px;
+  font-family: "Raleway";
+  text-transform: uppercase;
+  padding-left: 20px;
+}
+
 .navigation-container {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  background-color: #7e556a;
-  color: white;
-  height: 50px;
+  justify-content: space-between;
+  color: #0e2e51;
+  height: 70px;
   position: relative;
   top: 0;
   transition: all 0.5s;
   z-index: 1;
+
+  nav,
+  #menuToggle {
+    display: none;
+  }
 }
 
 .nav-link, .nav-link:visited {
-  color: white;
+  color: #0e2e51;
   text-decoration: none;
 }
 
-.fixed-nav {
-  position: fixed;
-  box-shadow: 0 5px rgba(0, 0, 0, 0.1);
-  background-color: #7e556a;
-  width: 100%;
-}
+// .fixed-nav {
+//   position: fixed;
+//   box-shadow: 0 5px rgba(0, 0, 0, 0.1);
+//   width: 100%;
+//   background-color: white;
+// }
 
 .nav-link {
   padding-right: 25px;
+  letter-spacing: 1px;
   font-weight: 600;
-  letter-spacing: .5px;
-}
-
-.nav-link:hover {
-  color: #cbcbcb;
+  font-size: 18px;
 }
 
 .nav-link-container {
   display: flex;
 }
 
-@media screen and (max-width: 480px) {
-  .nav-link {
-    font-size: 16px;
+@media only screen and (max-width: 1025px) {
+  .nav-link-container {
+    display: none;
   }
 
-  .fixed-nav .logo {
-    max-width: 0;
+  .navigation-container {
+    .logo {
+      font-size: 28px;
+    }
+
+    nav {
+      display: block;
+    }
+
+    #menuToggle {
+      display: block;
+      position: relative;
+      padding: 25px;
+      z-index: 1;
+      -webkit-user-select: none;
+      user-select: none;
+
+      span {
+        display: block;
+        width: 33px;
+        height: 4px;
+        margin-bottom: 5px;
+        position: relative;
+        background: #0e2e51;
+        border-radius: 3px;
+        z-index: 1;
+        transform-origin: 4px 0px;
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                    background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                    opacity 0.55s ease;
+      }
+    }
+  }
+
+  #menu {
+    position: absolute;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 25px;
+    background: white;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+
+    .nav-link {
+      font-size: 30px;
+      font-weight: 400;
+    }
+  }
+
+  #menuToggle {
+    #menu li {
+      padding-left: 25px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navigation-container {
+    #menu {
+      .nav-link {
+        font-size: 27px;
+      }
+    }
+
+    #menuToggle {
+      padding: 20px;
+    }
   }
 }

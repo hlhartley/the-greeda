@@ -9,14 +9,14 @@ class Banner extends Component {
     return (
       <div className='description_container'>
         <div className='profile-container'>
-          <h1>Heather Hartley</h1>
-          <small>Software Developer</small>
-          <p className="about-text">My favorite part of being a Frontend Engineer is developing visually-appealing, interactive, responsive sites/apps. Some of my personal projects and designs are displayed below</p>
+          <h1>Where beauty <br/>meets the eye...</h1>
+          <small>Brow & SMP Design Shop<br />by Ji-Hee Shin</small>
+          <div className="about-text">"Beauty begins the moment you decide to be yourself." —Coco Chanel </div>
         </div>
+        <div className="image-container"></div>
       </div>
     )
   }
 }
 
 export default Banner;
-

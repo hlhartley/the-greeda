@@ -1,0 +1,33 @@
+.services-container {
+  font-size: 20px;
+  background-color: #f5f5f5; 
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  padding: 30px 0;
+  color: #0e2e51;
+  letter-spacing: 1px;
+
+  .service-item {
+    margin: 0 auto;
+
+    .service-image-container {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 5px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .services-container {
+    font-size: 16.5px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .services-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+  }
+}

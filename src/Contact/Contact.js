@@ -1,22 +1,26 @@
 import React, { Component } from 'react';
 import '../main.scss';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 class Contact extends Component {
-    constructor () {
-        super()
-      }
-      componentDidMount() {
-        console.log('contact', document.querySelector('.contact-container').offsetTop)
-      }
+  constructor () {
+      super()
+    }
+
 	render() {
 		return (
-			<div className="contact-container">
-        <div className="contact-info-container">
-          <div className="contact-email"><i class="fas fa-envelope"></i> hlhartley@gmail.com</div>
-          <div><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/heatherleehartley/" target="_blank" className="link">heatherleehartley</a></div>
-          <div><i class="fab fa-github"></i> <a href="https://github.com/hlhartley" target="_blank" className="link">hlhartley</a></div>
+      <div className="contact-info-container">
+        <div className="contact-info-section">
+          <i class="fa fa-comment-dots"></i> 카카오톡 상담: the_greeda7401
+          <br />
+          <i class="fab fa-instagram"></i> 인스타그램: the_greeda
+          <br />
         </div>
-    </div>
+        <div className="naver contact-info-section">
+          <i class="fas fa-search"></i> 네이버: <a href="https://m.blog.naver.com/flowerstyle96/223028893829">경산 눈썹문신 잘 하는 곳(feat.더그리다)</a>
+        </div>
+      </div>
 		);
 	}
 }

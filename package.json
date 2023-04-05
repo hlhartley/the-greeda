@@ -1,5 +1,5 @@
 {
-  "name": "heather-hartley-portfolio",
+  "name": "the-greeda",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,7 +7,9 @@
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
+    "react-responsive-carousel": "^3.2.23",
+    "react-scripts": "2.1.8",
+    "react-swipeable": "^7.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -23,5 +25,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "react-router-dom": "^6.8.2"
+  }
 }

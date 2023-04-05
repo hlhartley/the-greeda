@@ -1,0 +1,47 @@
+.Home {
+  .home-image-container,
+  .video-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    img,
+    video {
+      width: 35vw;
+    }
+  }
+
+  .home-image-container {
+    padding-top: 25px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .Home {
+    .home-image-container,
+    .video-image-container {
+      img,
+      video {
+        width: 47vw;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Home {
+    .home-image-container,
+    .video-image-container {
+      flex-direction: column;
+
+      img,
+      video {
+        width: 100vw;
+      }
+
+      .flower-image {
+        display: none;
+      }
+    }
+  }
+}

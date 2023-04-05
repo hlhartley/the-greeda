@@ -1,8 +1,12 @@
 @import './normalize.css';
 @import './App.scss';
+@import './Home/Home.scss';
 @import './Banner/Banner.scss';
-@import './Projects/Projects.scss';
+@import './Services/Services.scss';
 @import './Contact/Contact.scss';
+@import './ImageCarousel/ImageCarousel.scss';
+@import './Programs/Programs.scss';
+@import './Reservations/Reservations.scss';
 
 * {
   font-family: 'Raleway', sans-serif;
