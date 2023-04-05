@@ -21,7 +21,7 @@ class Gallery extends Component {
     return (
       <div className='gallery-container'>
         <div style={{display: this.state.displayImageModal ? 'block' : 'none'}} className="image-modal">
-          <div className="close-button-container" >
+          <div className="close-button-container">
             <div
               className="close-button"
               onClick={() => this.displayModal(false)}
